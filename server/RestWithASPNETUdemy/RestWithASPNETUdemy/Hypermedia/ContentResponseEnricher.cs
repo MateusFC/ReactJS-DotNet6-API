@@ -40,7 +40,7 @@ namespace RestWithASPNETUdemy.Hypermedia
                 OkObjectResult okObjectResult1 = okObjectResult;
                 if (okObjectResult1.Value is T model)
                 {
-                    await EnrichModel(model, urlHelper);
+                     EnrichModel(model, urlHelper);
                 }
                 else if (okObjectResult.Value is List<T> collection)
                 {

@@ -1,0 +1,35 @@
+.new-container{
+    width: 60%;
+    height: 100%;
+    max-width: 100%;
+    margin: 15px auto;
+}
+.barraTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #6c757d;
+    padding: 10px ;
+    border: 1px solid;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.barraTitle div{
+    display: flex;
+}
+.barraTitle div  h2{
+    color:white;
+    margin-left:5px;
+}
+.card{
+    width: 100%;   
+}
+.card Form Label{
+    font-weight: bold;
+}
+label{
+    font-size: 20px;
+}
+Button{
+    font-weight: bold;
+}

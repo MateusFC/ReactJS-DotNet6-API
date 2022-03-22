@@ -1,0 +1,44 @@
+.Book-container{
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+    margin: 15px auto;
+}
+.barTitleBook{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #6c757d;
+    padding: 10px ;
+    border: 1px solid;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.barTitleBook h2{
+    color:white;
+    margin-left:5px;
+}
+.Painel{
+    margin: 20px;
+    display:flex ;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.groupButton{
+    display: flex;
+    width: 100%;
+}
+.Painel Button{
+    margin:5px;
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card{
+    margin:5px
+}
